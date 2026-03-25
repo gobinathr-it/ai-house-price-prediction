@@ -38,8 +38,23 @@ a[0]=11
 a.pop(3)
 print(a)
 
-"""
-a = [1,2,3,4,5,6,7]
+a = [1,2,3,4,5,6]
 b = [7,8,9,0]
 a.extend(b)
 print(a)
+
+
+a = {1,2,3} # can't change the values once created the tupple
+b = list(a) # tuple into list is possible
+b.pop(2) #after change u will do any modification
+
+"""
+a = (1,2,3,4) #unordered
+ # 10 add in last
+print(a)
+
+
+
+
+
+
